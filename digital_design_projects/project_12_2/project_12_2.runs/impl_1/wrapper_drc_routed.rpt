@@ -1,0 +1,118 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Dec 15 18:20:10 2020
+| Host         : LAPTOP-SIBN5NI1 running 64-bit major release  (build 9200)
+| Command      : report_drc -file wrapper_drc_routed.rpt -pb wrapper_drc_routed.pb -rpx wrapper_drc_routed.rpx
+| Design       : wrapper
+| Device       : xc7z007sclg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 5
++---------+------------------+--------------------------+------------+
+| Rule    | Severity         | Description              | Violations |
++---------+------------------+--------------------------+------------+
+| LUTLP-1 | Critical Warning | Combinatorial Loop Alert | 4          |
+| ZPS7-1  | Warning          | PS7 block required       | 1          |
++---------+------------------+--------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTLP-1#1 Critical Warning
+Combinatorial Loop Alert  
+46 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. If the loop is known and understood, this DRC can be bypassed by acknowledging the condition and setting the following XDC constraint on any one of the nets in the loop: 'set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets <myHier/myNet>]'. One net in the loop is nolabel_line37/SegKa_OBUF[6]_inst_i_10_n_0. Please evaluate your design. The cells in the loop are: nolabel_line37/SegKa_OBUF[6]_inst_i_10,
+nolabel_line37/SegKa_OBUF[6]_inst_i_14,
+nolabel_line37/SegKa_OBUF[6]_inst_i_18,
+nolabel_line37/SegKa_OBUF[6]_inst_i_21,
+nolabel_line37/SegKa_OBUF[6]_inst_i_22,
+nolabel_line37/SegKa_OBUF[6]_inst_i_23,
+nolabel_line37/SegKa_OBUF[6]_inst_i_24,
+nolabel_line37/SegKa_OBUF[6]_inst_i_37,
+nolabel_line37/SegKa_OBUF[6]_inst_i_49,
+nolabel_line37/SegKa_OBUF[6]_inst_i_50,
+nolabel_line37/SegKa_OBUF[6]_inst_i_51,
+nolabel_line37/SegKa_OBUF[6]_inst_i_52,
+nolabel_line37/SegKa_OBUF[6]_inst_i_53,
+nolabel_line37/SegKa_OBUF[6]_inst_i_83,
+nolabel_line37/SegKa_OBUF[6]_inst_i_84 (the first 15 of 46 listed).
+Related violations: <none>
+
+LUTLP-1#2 Critical Warning
+Combinatorial Loop Alert  
+50 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. If the loop is known and understood, this DRC can be bypassed by acknowledging the condition and setting the following XDC constraint on any one of the nets in the loop: 'set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets <myHier/myNet>]'. One net in the loop is nolabel_line37/SegKa_OBUF[6]_inst_i_100_n_0. Please evaluate your design. The cells in the loop are: nolabel_line37/SegKa_OBUF[6]_inst_i_12,
+nolabel_line37/SegKa_OBUF[6]_inst_i_16,
+nolabel_line37/SegKa_OBUF[6]_inst_i_20,
+nolabel_line37/SegKa_OBUF[6]_inst_i_25,
+nolabel_line37/SegKa_OBUF[6]_inst_i_26,
+nolabel_line37/SegKa_OBUF[6]_inst_i_27,
+nolabel_line37/SegKa_OBUF[6]_inst_i_30,
+nolabel_line37/SegKa_OBUF[6]_inst_i_41,
+nolabel_line37/SegKa_OBUF[6]_inst_i_47,
+nolabel_line37/SegKa_OBUF[6]_inst_i_54,
+nolabel_line37/SegKa_OBUF[6]_inst_i_55,
+nolabel_line37/SegKa_OBUF[6]_inst_i_56,
+nolabel_line37/SegKa_OBUF[6]_inst_i_58,
+nolabel_line37/SegKa_OBUF[6]_inst_i_59,
+nolabel_line37/SegKa_OBUF[6]_inst_i_68 (the first 15 of 50 listed).
+Related violations: <none>
+
+LUTLP-1#3 Critical Warning
+Combinatorial Loop Alert  
+55 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. If the loop is known and understood, this DRC can be bypassed by acknowledging the condition and setting the following XDC constraint on any one of the nets in the loop: 'set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets <myHier/myNet>]'. One net in the loop is nolabel_line37/SegKa_OBUF[6]_inst_i_101_n_0. Please evaluate your design. The cells in the loop are: nolabel_line37/SegKa_OBUF[6]_inst_i_9,
+nolabel_line37/SegKa_OBUF[6]_inst_i_13,
+nolabel_line37/SegKa_OBUF[6]_inst_i_17,
+nolabel_line37/SegKa_OBUF[6]_inst_i_31,
+nolabel_line37/SegKa_OBUF[6]_inst_i_34,
+nolabel_line37/SegKa_OBUF[6]_inst_i_36,
+nolabel_line37/SegKa_OBUF[6]_inst_i_42,
+nolabel_line37/SegKa_OBUF[6]_inst_i_43,
+nolabel_line37/SegKa_OBUF[6]_inst_i_44,
+nolabel_line37/SegKa_OBUF[6]_inst_i_60,
+nolabel_line37/SegKa_OBUF[6]_inst_i_62,
+nolabel_line37/SegKa_OBUF[6]_inst_i_63,
+nolabel_line37/SegKa_OBUF[6]_inst_i_65,
+nolabel_line37/SegKa_OBUF[6]_inst_i_66,
+nolabel_line37/SegKa_OBUF[6]_inst_i_78 (the first 15 of 55 listed).
+Related violations: <none>
+
+LUTLP-1#4 Critical Warning
+Combinatorial Loop Alert  
+55 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. If the loop is known and understood, this DRC can be bypassed by acknowledging the condition and setting the following XDC constraint on any one of the nets in the loop: 'set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets <myHier/myNet>]'. One net in the loop is nolabel_line37/SegKa_OBUF[6]_inst_i_107_n_0. Please evaluate your design. The cells in the loop are: nolabel_line37/SegKa_OBUF[6]_inst_i_11,
+nolabel_line37/SegKa_OBUF[6]_inst_i_15,
+nolabel_line37/SegKa_OBUF[6]_inst_i_39,
+nolabel_line37/SegKa_OBUF[6]_inst_i_40,
+nolabel_line37/SegKa_OBUF[6]_inst_i_46,
+nolabel_line37/SegKa_OBUF[6]_inst_i_69,
+nolabel_line37/SegKa_OBUF[6]_inst_i_70,
+nolabel_line37/SegKa_OBUF[6]_inst_i_72,
+nolabel_line37/SegKa_OBUF[6]_inst_i_73,
+nolabel_line37/SegKa_OBUF[6]_inst_i_74,
+nolabel_line37/SegKa_OBUF[6]_inst_i_75,
+nolabel_line37/SegKa_OBUF[6]_inst_i_76,
+nolabel_line37/SegKa_OBUF[6]_inst_i_77,
+nolabel_line37/SegKa_OBUF[6]_inst_i_107,
+nolabel_line37/SegKa_OBUF[6]_inst_i_109 (the first 15 of 55 listed).
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

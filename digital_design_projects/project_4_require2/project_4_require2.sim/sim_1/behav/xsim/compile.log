@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/boxiang/Desktop/ee_214_projects/project_4_require2/project_4_require2.srcs/sources_1/new/p4r2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p4r2
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'Y' is not allowed [C:/Users/boxiang/Desktop/ee_214_projects/project_4_require2/project_4_require2.srcs/sources_1/new/p4r2.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/boxiang/Desktop/ee_214_projects/project_4_require2/project_4_require2.srcs/sim_1/new/p4r2sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p4r2sim

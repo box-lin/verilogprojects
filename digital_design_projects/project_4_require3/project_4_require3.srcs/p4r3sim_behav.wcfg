@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="p4r3sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="p4r3sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999985fs"></ZoomStartTime>
+      <ZoomEndTime time="1000003fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="160"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/p4r3sim/I" type="array">
+      <obj_property name="ElementShortName">I[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/p4r3sim/Ein" type="logic">
+      <obj_property name="ElementShortName">Ein</obj_property>
+      <obj_property name="ObjectShortName">Ein</obj_property>
+   </wvobject>
+   <wvobject fp_name="/p4r3sim/Y" type="array">
+      <obj_property name="ElementShortName">Y[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/p4r3sim/GS" type="logic">
+      <obj_property name="ElementShortName">GS</obj_property>
+      <obj_property name="ObjectShortName">GS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/p4r3sim/Eout" type="logic">
+      <obj_property name="ElementShortName">Eout</obj_property>
+      <obj_property name="ObjectShortName">Eout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/p4r3sim/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/p4r3sim/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Sep 26 17:57:41 2020
+# Process ID: 16752
+# Current directory: C:/Users/boxiang/Desktop/ee_214_projects/project_3_require3/project_3_require3.runs/synth_1
+# Command line: vivado.exe -log p3require3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source p3require3.tcl
+# Log file: C:/Users/boxiang/Desktop/ee_214_projects/project_3_require3/project_3_require3.runs/synth_1/p3require3.vds
+# Journal file: C:/Users/boxiang/Desktop/ee_214_projects/project_3_require3/project_3_require3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source p3require3.tcl -notrace

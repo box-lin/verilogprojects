@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep  2 15:03:59 2020
+# Process ID: 8680
+# Current directory: C:/Users/boxiang/Desktop/ee_214_projects/project_1_challenge_1/project_1_challenge_1.runs/synth_1
+# Command line: vivado.exe -log challenge_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source challenge_1.tcl
+# Log file: C:/Users/boxiang/Desktop/ee_214_projects/project_1_challenge_1/project_1_challenge_1.runs/synth_1/challenge_1.vds
+# Journal file: C:/Users/boxiang/Desktop/ee_214_projects/project_1_challenge_1/project_1_challenge_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source challenge_1.tcl -notrace

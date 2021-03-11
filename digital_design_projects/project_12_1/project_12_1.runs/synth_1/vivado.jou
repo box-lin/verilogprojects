@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 13 14:13:25 2020
+# Process ID: 6636
+# Current directory: C:/Users/boxiang/Desktop/ee_214_projects/project_12_1/project_12_1.runs/synth_1
+# Command line: vivado.exe -log Debouncer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Debouncer.tcl
+# Log file: C:/Users/boxiang/Desktop/ee_214_projects/project_12_1/project_12_1.runs/synth_1/Debouncer.vds
+# Journal file: C:/Users/boxiang/Desktop/ee_214_projects/project_12_1/project_12_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Debouncer.tcl -notrace

@@ -1,0 +1,5 @@
+ERROR: Exception caught trying to open file C:\Users\boxiang\Desktop\ee_214_projects\project_7_challenge1\project_7_challenge1.runs\synth_1/runme.log
+See file C:\Users\boxiang\Desktop\ee_214_projects\project_7_challenge1\project_7_challenge1.runs\synth_1/exception.log for details.
+C:\Users\boxiang\Desktop\ee_214_projects\project_7_challenge1\project_7_challenge1.runs\synth_1\rundef.js(22, 1) Microsoft JScript 运行时错误: 没有权限
+
+CScript 错误: Windows 脚本宿主执行失败。 (0x80020102)

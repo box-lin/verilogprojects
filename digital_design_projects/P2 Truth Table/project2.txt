@@ -1,0 +1,19 @@
+Coolant temperature "1" : temperature exceeds 200 degrees
+Coolant low "1" : level below 60% of capacity
+Oil temperature "1" : temperature exceeds 180 degrees
+Oil low "1": level below 75% capacity
+
+yellow light on
+
+- coolant level low
+- oil level low
+- oil temperature high & oil level ok
+- coolant temperature high & oil level low
+
+
+right light on
+
+- coolant temperature high & coolant level low
+- oil temperature high & oil level low
+- coolant and oil temperature too high
+- coolant and oil levels are too low & coolant temperature is too high and the oild temperature is OK.

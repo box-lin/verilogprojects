@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 16 14:37:00 2020
+# Process ID: 10388
+# Current directory: C:/Users/boxiang/Desktop/ee_214_projects/project_2_require1/project_2_require1.runs/impl_1
+# Command line: vivado.exe -log p2_require1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source p2_require1.tcl -notrace
+# Log file: C:/Users/boxiang/Desktop/ee_214_projects/project_2_require1/project_2_require1.runs/impl_1/p2_require1.vdi
+# Journal file: C:/Users/boxiang/Desktop/ee_214_projects/project_2_require1/project_2_require1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source p2_require1.tcl -notrace

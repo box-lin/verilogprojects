@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Sep 10 21:08:30 2020
+# Process ID: 2256
+# Current directory: C:/Users/boxiang/Desktop/ee_214_projects/project_1_for_3/project_1_for_3.runs/impl_1
+# Command line: vivado.exe -log led_for.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source led_for.tcl -notrace
+# Log file: C:/Users/boxiang/Desktop/ee_214_projects/project_1_for_3/project_1_for_3.runs/impl_1/led_for.vdi
+# Journal file: C:/Users/boxiang/Desktop/ee_214_projects/project_1_for_3/project_1_for_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source led_for.tcl -notrace

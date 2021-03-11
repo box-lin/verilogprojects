@@ -1,0 +1,7 @@
+Running: xsim.dir/p4r4sim_behav/xsimk.exe -simmode gui -wdb p4r4sim_behav.wdb -simrunnum 0 -socket 51153
+Design successfully loaded
+Design Loading Memory Usage: 5380 KB (Peak: 5380 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 6368 KB (Peak: 6368 KB)
+Simulation CPU Usage: 109 ms

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Sep  1 23:28:08 2020
+# Process ID: 10236
+# Current directory: C:/Users/boxiang/Desktop/ee_214_projects/project_1_require_3/project_1_require_3.runs/synth_1
+# Command line: vivado.exe -log led_all.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source led_all.tcl
+# Log file: C:/Users/boxiang/Desktop/ee_214_projects/project_1_require_3/project_1_require_3.runs/synth_1/led_all.vds
+# Journal file: C:/Users/boxiang/Desktop/ee_214_projects/project_1_require_3/project_1_require_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led_all.tcl -notrace
